@@ -681,7 +681,7 @@ GmailApp.sendEmail(ALERT_EMAIL,
 const STORAGE_KEY   = 'anewbengalSheetUrl';
 const ADMIN_PWD     = 'NewBengal2026';   // ← CHANGE THIS PASSWORD
 const POLL_INTERVAL = 30000;
-let sheetUrl        = localStorage.getItem(STORAGE_KEY) || '';
+let sheetUrl        = localStorage.getItem(STORAGE_KEY) || 'https://script.google.com/macros/s/AKfycbyl67kkXmssVRx78RxrI3ARE3dwq6eeGZmkJCYDjmLXghW-Q3Yjr_8ud7XEEJbos1ozCA/exec';
 let allVoices       = [], knownIds = new Set();
 let activeDistrict  = null, typeFilter = null;
 let pollTimer       = null, sessionNewCount = 0;
